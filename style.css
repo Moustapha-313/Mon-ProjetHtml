@@ -10,18 +10,36 @@ body{
     font-family: 'Poppins',sans-serif;
     
 }
-@media (width<=756px){
+@media (width<=768px){
     .produits .cereales{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         padding: 50px;
+        gap: 15px;
     }
-    
+    .pied{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pied h2{
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .pied h4{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .objectif p{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
 }
 @media (width<=576px){
     .barniere{
-        padding: 0 0 0 10%;
         display: flex;
         flex-direction: column;
     }
@@ -30,19 +48,58 @@ body{
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    .barniere .btn2 a{
+        width: auto;
+        border: none;
+        background-color: green;
+        color:white;
+        font-size: 10px ;
+        padding: 8px 14px;
+        border-radius: 5px;
+    }
+    .image1{
+        margin-bottom: 20px;
+    }
     .img{
-        width: 230px;  
-        height: 250px;
+        width: 200px;
+        margin-top:200px;
+        margin-bottom: 45px;
+    }
+    .transformation{
+        display: flex;
+        flex-direction: column;
+    }
+    .trans-img{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+        gap: 15px;
+    }
+    .transf{
+        background: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+        border: 3px solid white;
+        border-radius: 10px;
     }
     .images{
         display: flex;
         flex-direction: column;
         padding-bottom: 10px;
+        margin: auto;
         gap: 10px;
     }
     .produits .cereales{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         padding: 50px;
         gap: 15px;
@@ -99,7 +156,7 @@ body{
     }
     .pied{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         color: white;
     }
     .pied h2{
@@ -110,6 +167,7 @@ body{
     }
     
 }
+
 
 .navbar{
     background-color: green;
@@ -229,15 +287,13 @@ body{
 }
 .trans-img{
     width: 15%;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 3px solid white;
-    border-radius: 10px;
+    gap: 15px;
 }
 .transf{
     background: white;
