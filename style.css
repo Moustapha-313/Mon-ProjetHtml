@@ -67,7 +67,7 @@ body{
     }
     .transformation{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
     }
     .trans-img{
         width: 100%;
